@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/allExcusesFragment">
+
+    <fragment
+        android:id="@+id/allExcusesFragment"
+        android:name="com.example.excusesapp.ui.fragments.AllExcusesFragment"
+        android:label="fragment_all_excuses"
+        tools:layout="@layout/fragment_all_excuses" />
+    <fragment
+        android:id="@+id/officeExcusesFragment"
+        android:name="com.example.excusesapp.ui.fragments.OfficeExcusesFragment"
+        android:label="fragment_office_excuses"
+        tools:layout="@layout/fragment_office_excuses" />
+    <fragment
+        android:id="@+id/familyExcusesFragment"
+        android:name="com.example.excusesapp.ui.fragments.FamilyExcusesFragment"
+        android:label="fragment_family_excuses"
+        tools:layout="@layout/fragment_family_excuses" />
+</navigation>

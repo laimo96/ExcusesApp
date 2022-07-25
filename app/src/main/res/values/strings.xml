@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExcusesApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="office_excuses">Office Excuses</string>
+    <string name="family_excuses">Family Excuses</string>
+    <string name="all_excuses">All Excuses</string>
+</resources>
